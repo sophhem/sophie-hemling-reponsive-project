@@ -1,0 +1,46 @@
+/* Allgemein - Color & Style */
+h1, h2, p, a, li{
+    font-family: Bookman old style;
+}
+body{
+    background-color: rgb(216, 207, 191, 0.2);
+}
+
+/* Header */
+.header img{
+    width: 390px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation */
+.nav-links{
+    background-color: rgb(181, 169, 204);
+    height: 70px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nav-links :hover{
+    text-decoration: none;
+    color: rgb(235 101 57);
+    font-size: 30px;
+}
+/* Layout */
+
+
+/* Footer */
